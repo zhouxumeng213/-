@@ -213,7 +213,7 @@ public:
 		return true;
 	}
 protected:
-	//生成哈夫曼编码
+	//生成哈夫曼编码，左子树为0，右子树为1
 	void GenerateHuffmanCode(HuffmanTreeNode<charInfo>* root, string& code)
 	{
 		if (root == NULL)
